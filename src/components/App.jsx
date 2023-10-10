@@ -7,9 +7,9 @@ import { useAuth } from 'hooks';
 import { RestrictedRoute } from './RestrictedRoute';
 import { PrivateRoute } from './PrivetRoute';
 
-const HomePage = lazy(() => import('../page/Home'));
-const RegisterPage = lazy(() => import('../page/Register'));
-const LoginPage = lazy(() => import('../page/Login'));
+const HomePage = lazy(() => import('../page/home/Home'));
+const RegisterPage = lazy(() => import('../page/register/Register'));
+const LoginPage = lazy(() => import('../page/login/Login'));
 const ContactsPage = lazy(() => import('../page/contacts/Contacts'));
 
 export const App = () => {

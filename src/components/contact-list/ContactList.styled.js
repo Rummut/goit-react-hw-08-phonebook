@@ -5,13 +5,6 @@ export const List = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 0 50px 0;
-  background-color: #ffffff;
-  margin: auto;
-  width: 350px;
-  border-radius: 8px;
-  gap: 15px;
-  margin-top: 5px;
 `;
 
 export const Item = styled.ul`
@@ -24,6 +17,7 @@ export const Item = styled.ul`
   padding: 20px;
   justify-content: space-around;
   border-radius: 8px;
+  margin: 30px 0 0 0;
 `;
 
 export const Button = styled.button`

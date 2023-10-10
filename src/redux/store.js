@@ -1,5 +1,5 @@
-import { contactReducer, contactsInitialState } from './contactSlice';
-import { filterInitialState, filterReducer } from './filterSlice';
+import { contactReducer, contactsInitialState } from './contacts/contactSlice';
+import { filterInitialState, filterReducer } from './contacts/filterSlice';
 import storage from 'redux-persist/lib/storage';
 import {
   persistStore,
